@@ -1,5 +1,5 @@
 let player;
-const menuContainer = document.getElementById('menu-container');
+const buttonContainer = document.getElementById('button-container');
 
 // This function is called when the YouTube API is ready
 function onYouTubeIframeAPIReady() {
@@ -35,14 +35,14 @@ function onPlayerReady(event) {
 function onPlayerStateChange(event) {
   // Check if the video has ended
   if (event.data === YT.PlayerState.ENDED) {
-    // Show the menu
-    showMenu();
+    // Show the buttons
+    showButtons();
   }
 }
 
 // Function to show the menu
-function showMenu() {
-  menuContainer.style.display = 'flex'; // Display the menu container as flexbox
+function showButtons() {
+  buttonContainer.style.display = 'flex'; // Display the button container as flexbox
 }
 
 // Function to redirect to a different page
