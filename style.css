@@ -292,7 +292,7 @@ body::-webkit-scrollbar {
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
-#menu-container {
+#button-container {
     position: fixed;
     width: 95%;
     height: 100%;
@@ -304,7 +304,7 @@ body::-webkit-scrollbar {
     z-index: 1000;
 }
 
-.menu-option {
+.button-option {
     padding: 20px 40px;
     margin: 10px;
     cursor: pointer;
@@ -315,7 +315,7 @@ body::-webkit-scrollbar {
     text-align: center;
 }
 
-.menu-option:hover {
+.button-option:hover {
     background-color: rgba(4, 117, 148, 0.83);
 }
 
