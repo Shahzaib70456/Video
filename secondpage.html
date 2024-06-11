@@ -5,34 +5,52 @@
     <!-- Meta tags for character set and viewport settings -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
     <title>Movie</title>
+    <!-- Link to the external CSS stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- Link to the Google Fonts API for the Roboto font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Link to the Font Awesome library for icons -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- YouTube IFrame API for embedding YouTube videos -->
     <script src="https://www.youtube.com/iframe_api"></script>
-    <script src="script.js" defer></script>
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js" ></script>
 </head>
 
 <body>
 
     <div class="container">
+        <!-- Sidebar navigation menu -->
         <div class="sidebar" id="myTopnav">
+            <!-- Home link with an icon -->
             <a href="index.html"><img src="images/home.png" alt="Home"> </a>
+            <!-- Movie page link with an icon and active state -->
             <a href="secondpage.html" class="active"><img src="images/movie.png" alt="Movie"> </a>
+            <!-- Bloopers page link with an icon -->
             <a href="thirdpage.html"><img src="images/blooper.png" alt="Bloopers"> </a>
+            <!-- Meet the Team page link with an icon -->
             <a href="fourthpage.html"><img src="images/contact.png" alt="Meet the Team"> </a>
         </div>
 
+        <!-- Main content area -->
         <div class="main-content">
+            <!-- Second page section -->
             <div class="secondpage" id="section">
+                <!-- Movie title -->
                 <h1 class="movie-title">No Room for Suri - The Film</h1>
+                <!-- Movie container for the YouTube player -->
                 <div class="movie-container">
                     <div id="player"></div>
                 </div>
                 
-                <div id="menu-container">
-                    <div class="menu-option" onclick="redirectToPage('fifthpage.html')">Reject Shaf</div>
-                    <div class="menu-option" onclick="redirectToPage('sixthpage.html')">Accept  Shaf</div>
+                <!-- Button container with options -->
+                <div id="button-container">
+                    <!-- Option to reject Shaf, triggering a JavaScript function to redirect -->
+                    <div class="button-option" onclick="redirectToPage('fifthpage.html')">Reject Shaf</div>
+                    <!-- Option to accept Shaf, triggering a JavaScript function to redirect -->
+                    <div class="button-option" onclick="redirectToPage('sixthpage.html')">Accept Shaf</div>
                 </div>
             </div>
         </div>
