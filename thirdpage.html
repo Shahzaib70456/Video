@@ -5,31 +5,42 @@
     <!-- Meta tags for character set and viewport settings -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
     <title>Movie</title>
+    <!-- Link to the external CSS stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- Link to the Google Fonts API for the Roboto font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Link to the external JavaScript file, deferred so it loads after HTML -->
     <script src="script.js" defer></script>
 </head>
 
 <body>
 
     <div class="container">
+        <!-- Sidebar navigation menu -->
         <div class="sidebar" id="myTopnav">
+            <!-- Home link with an icon -->
             <a href="index.html"><img src="images/home.png" alt="Home"> </a>
-            <a href="secondpage.html" ><img src="images/movie.png" alt="Movie"> </a>
+            <!-- Movie page link with an icon -->
+            <a href="secondpage.html"><img src="images/movie.png" alt="Movie"> </a>
+            <!-- Bloopers page link with an icon and active state -->
             <a href="thirdpage.html" class="active"><img src="images/blooper.png" alt="Bloopers"> </a>
+            <!-- Meet the Team page link with an icon -->
             <a href="fourthpage.html"><img src="images/contact.png" alt="Meet the Team"> </a>
         </div>
 
+        <!-- Main content area -->
         <div class="main-content">
+            <!-- Third page section -->
             <div class="thirdpage" id="section">
+                <!-- Bloopers title -->
                 <h1 class="blooper-title">Bloopers</h1>
+                <!-- Bloopers container for the embedded video -->
                 <div class="blooper-container">
+                    <!-- Embedded video from Google Drive -->
                     <iframe src="https://drive.google.com/file/d/1ztG6e4DYexisS099eh72by2QhqifQGKp/preview" width="640" height="480" allow="autoplay"></iframe>
                 </div>
-
-                
-
             </div>
         </div>
     </div>
