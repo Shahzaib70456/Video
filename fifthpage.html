@@ -5,32 +5,44 @@
     <!-- Meta tags for character set and viewport settings -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
     <title>Movie</title>
+    <!-- Link to the external CSS stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- Link to the Google Fonts API for the Roboto font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Link to the Font Awesome library for icons -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- YouTube IFrame API for embedding YouTube videos -->
     <script src="https://www.youtube.com/iframe_api"></script>
-    
 </head>
 
 <body>
 
     <div class="container">
+        <!-- Sidebar navigation menu -->
         <div class="sidebar" id="myTopnav">
+            <!-- Home link with an icon -->
             <a href="index.html"><img src="images/home.png" alt="Home"> </a>
+            <!-- Movie page link with an icon and active state -->
             <a href="secondpage.html" class="active"><img src="images/movie.png" alt="Movie"> </a>
+            <!-- Bloopers page link with an icon -->
             <a href="thirdpage.html"><img src="images/blooper.png" alt="Bloopers"> </a>
+            <!-- Meet the Team page link with an icon -->
             <a href="fourthpage.html"><img src="images/contact.png" alt="Meet the Team"> </a>
         </div>
 
+        <!-- Main content area -->
         <div class="main-content">
+            <!-- Second page section -->
             <div class="secondpage" id="section">
+                <!-- Movie title -->
                 <h1 class="movie-title">No Room for Suri - The Film</h1>
+                <!-- Movie container for the embedded video -->
                 <div class="movie-container">
+                    <!-- Embedded video from Google Drive -->
                     <iframe src="https://drive.google.com/file/d/1FUQqL-WRl8MBnZd5f5WgGRaZUXARNpP2/preview" width="640" height="480" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
-                
-                
             </div>
         </div>
     </div>
