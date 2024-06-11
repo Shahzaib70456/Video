@@ -5,46 +5,59 @@
     <!-- Meta tags for character set and viewport settings -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
     <title>Movie</title>
+    <!-- Link to the external CSS stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- Link to the Google Fonts API for the Roboto font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Link to the external JavaScript file, deferred so it loads after HTML -->
     <script src="script.js" defer></script>
 </head>
 
 <body>
 
     <div class="container">
+        <!-- Sidebar navigation menu -->
         <div class="sidebar" id="myTopnav">
+            <!-- Home link with an icon -->
             <a href="index.html"><img src="images/home.png" alt="Home"> </a>
-            <a href="secondpage.html" ><img src="images/movie.png" alt="Movie"> </a>
-            <a href="thirdpage.html" ><img src="images/blooper.png" alt="Bloopers"> </a>
+            <!-- Movie page link with an icon -->
+            <a href="secondpage.html"><img src="images/movie.png" alt="Movie"> </a>
+            <!-- Bloopers page link with an icon -->
+            <a href="thirdpage.html"><img src="images/blooper.png" alt="Bloopers"> </a>
+            <!-- Meet the Team page link with an icon and active state -->
             <a href="fourthpage.html" class="active"><img src="images/contact.png" alt="Meet the Team"> </a>
         </div>
 
+        <!-- Main content area -->
         <div class="main-content">
+            <!-- Fourth page section -->
             <div class="fourthpage" id="section">
+                <!-- Team title -->
                 <h1 class="team-title">Team</h1>
-               
+                
+                <!-- Member cards container -->
                 <div class="member-cards">
+                    <!-- Individual member card -->
                     <div class="card">
                         <img src="images/aayat.jpeg" alt="Member 1">
                         <h3>Aayat Azim</h3>
-                        
                     </div>
+                    <!-- Individual member card -->
                     <div class="card">
                         <img src="images/nisa.jpeg" alt="Member 2">
                         <h3>Nisa Shahid</h3>
-                       
                     </div>
+                    <!-- Individual member card -->
                     <div class="card">
                         <img src="images/shazzy.jpeg" alt="Member 3">
                         <h3>Muhammad Shahzaib</h3>
-                        
                     </div>
+                    <!-- Individual member card -->
                     <div class="card">
                         <img src="images/abyan.jpg" alt="Member 4">
                         <h3>Muhammad Ahmed</h3>
-                        
                     </div>
                 </div>
             </div>
@@ -53,4 +66,3 @@
 
 </body>
 </html>
-
