@@ -6,7 +6,7 @@ function onYouTubeIframeAPIReady() {
   player = new YT.Player('player', {
     height: '390',
     width: '640',
-    videoId: 'Xu1wgKw7GT8',
+    videoId: 'HqIMiD2sj10',
     playerVars: {
         'rel': 0, // Disable related videos
         'modestbranding': 1, // Reduce YouTube branding
